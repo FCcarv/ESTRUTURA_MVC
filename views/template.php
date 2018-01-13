@@ -9,6 +9,8 @@
 	<a href="<?=BASE_URL;?>">Home</a>
 	<a href="<?=BASE_URL;?>galeria">Galeria</a>
 	<hr/>
+
+	<!-- chama as view galeria , e home , pra funcionar dentro da view template.  -->
 	<?=$this->loadViewInTemplate($viewName, $viewData);?>
 	
 </body>
